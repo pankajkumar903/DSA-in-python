@@ -9,8 +9,8 @@ def reverseList(A, start, end):
 
 # Driver function to test above function
 
-A = eval(input("Enter the value of x:"))
-print(A)
-reverseList(A, 0, -1)
+A = eval(input("Enter the value of x:"))  # [1, 2, 3, 4, 5]
+print("list is")
+reverseLists = A[::-1]
 print("Reversed list is")
-print(A)
+print(reverseLists)
