@@ -1,6 +1,6 @@
 # Iterative python program to reverse an array
-# Function to reverse A[] from start to end
 
+# Function to reverse A[] from start to end
 def reverseList(A, start, end):
 	while start < end:
 		A[start], A[end] = A[end], A[start]
@@ -11,6 +11,6 @@ def reverseList(A, start, end):
 
 A = eval(input("Enter the value of x:"))
 print(A)
-reverseList(A, 0, 5)
+reverseList(A, 0, -1)
 print("Reversed list is")
 print(A)
